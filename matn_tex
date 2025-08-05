@@ -1,0 +1,42 @@
+
+Meni ismim Faxriddin
+# class Avto:
+#     __num_avto = 0
+#     """Avtomobil classi"""
+#     def __init__(self, make, model, rangi, yili, narxi):
+#         self.make = make
+#         self.model = model
+#         self.rangi = rangi
+#         self.yili = yili
+#         self.narxi = narxi
+#         Avto.__num_avto += 1
+#         self.id = uuid4()
+#     def __repr__(self):
+#         """Obyektsifatida ma'lumot"""
+#         return f"Avto: {self.rangi}{self.model}{self.make}"
+#     def show(self):
+#         return f"{self.id}"
+# class AftoSallon:
+#     """Avto sallon"""
+#     def __init__(self, name):
+#         self.name = name
+#         self.avtolar = []
+#
+#     def __repr__(self):
+#         return f"{self.name} avtosalloni"
+#     def add_avtolar(self, avto):
+#         if isinstance(avto, Avto):
+#             self.avtolar.append(avto)
+#         else:
+#             print("Avto obyektinikiriting.")
+#     def __len__(self):
+#         return len(self.avtolar)
+# """Avto obyektini yaratamiz"""
+# avto1 = Avto("GM", "Malibu","qizil", 2020,32_000)
+# avto2 = Avto("GM", "Jentra","qizil", 2020,20_000)
+# avto3 = Avto("GM", "Nexia","qizil", 2020,15_000)
+# salon1 = []
+# # for avto in [avto1, avto2, avto3]:
+# #     salon1.add_avto(avto)
+#
+# print(Avto.show())

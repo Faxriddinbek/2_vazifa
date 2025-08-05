@@ -1,0 +1,3 @@
+Ali 5
+Vali 4
+Guli 3
