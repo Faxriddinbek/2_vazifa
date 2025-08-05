@@ -1,5 +1,5 @@
 # """
-# a_3 - misol
+# b_3 - misol
 # """
 #
 # curr.execute("SELECT * FROM books ORDER BY published_year;")
